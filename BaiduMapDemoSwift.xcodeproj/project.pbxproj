@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7309A5771A92F03A0084974E /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309A5761A92F03A0084974E /* BaseTableViewController.swift */; };
+		7309A57B1A92F9E50084974E /* BaseMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309A57A1A92F9E50084974E /* BaseMapViewController.swift */; };
+		7309A57D1A92FA2E0084974E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309A57C1A92FA2E0084974E /* Constant.swift */; };
+		7309A57F1A9317450084974E /* MultiMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309A57E1A9317450084974E /* MultiMapViewController.swift */; };
+		7309A5811A9320F10084974E /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309A5801A9320F10084974E /* MapViewViewController.swift */; };
+		7309A5831A9329CC0084974E /* MapControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7309A5821A9329CC0084974E /* MapControlViewController.swift */; };
+		732EF2961AAC3C23004945D1 /* CustomOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732EF2951AAC3C23004945D1 /* CustomOverlay.swift */; };
+		7332CA741ABEA5D100260828 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 7332CA731ABEA5D100260828 /* locations.json */; };
+		735555FE1AC10B890075CB38 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332CA761ABEA6C700260828 /* SwiftyJSON.swift */; };
+		737C00861ABB0A7400C8CD8D /* OfflineMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737C00851ABB0A7400C8CD8D /* OfflineMapViewController.swift */; };
+		739A87381AAD7E9700911136 /* RouteAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A87371AAD7E9700911136 /* RouteAnnotation.swift */; };
+		73B85CB71AAC86AE005874FD /* GeocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CB61AAC86AE005874FD /* GeocodeViewController.swift */; };
+		73B85CB91AAC877A005874FD /* RouteSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CB81AAC877A005874FD /* RouteSearchViewController.swift */; };
+		73B85CBB1AAC8794005874FD /* BusLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CBA1AAC8794005874FD /* BusLineViewController.swift */; };
+		73B85CBD1AAC87A7005874FD /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CBC1AAC87A7005874FD /* OfflineViewController.swift */; };
+		73B85CBF1AAC87BE005874FD /* HeatMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CBE1AAC87BE005874FD /* HeatMapViewController.swift */; };
+		73B85CC11AAC87CE005874FD /* ShortURLShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CC01AAC87CE005874FD /* ShortURLShareViewController.swift */; };
+		73B85CC31AAC87DD005874FD /* CloudSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CC21AAC87DD005874FD /* CloudSearchViewController.swift */; };
+		73B85CC51AAC87F0005874FD /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CC41AAC87F0005874FD /* NavigationViewController.swift */; };
+		73B85CC71AAC87FF005874FD /* OpenGLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B85CC61AAC87FF005874FD /* OpenGLViewController.swift */; };
+		73B90C6A1AA9782C0041BE28 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90C681AA9782C0041BE28 /* LocationViewController.swift */; };
+		73B90C6B1AA9782C0041BE28 /* MapUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90C691AA9782C0041BE28 /* MapUIViewController.swift */; };
+		73B90C6F1AA99E390041BE28 /* AnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90C6E1AA99E390041BE28 /* AnnotationViewController.swift */; };
+		73B90C711AA99EA60041BE28 /* CustomOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90C701AA99EA60041BE28 /* CustomOverlayViewController.swift */; };
+		73B90C731AA99ED50041BE28 /* PoiSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90C721AA99ED50041BE28 /* PoiSearchViewController.swift */; };
+		73B90C771AA9A90B0041BE28 /* AnimatedAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B90C761AA9A90B0041BE28 /* AnimatedAnnotationView.swift */; };
+		73C923B21A8FA30C0065A546 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C923B11A8FA30C0065A546 /* AppDelegate.swift */; };
+		73C923BA1A8FA30C0065A546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C923B81A8FA30C0065A546 /* Main.storyboard */; };
+		73C923BC1A8FA30C0065A546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C923BB1A8FA30C0065A546 /* Images.xcassets */; };
+		73C923BF1A8FA30C0065A546 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73C923BD1A8FA30C0065A546 /* LaunchScreen.xib */; };
+		73C923D61A8FA37C0065A546 /* tmp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 73C923D51A8FA37C0065A546 /* tmp.mm */; };
+		73E415F91AB99A860083B25F /* WayPointRouteSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E415F81AB99A860083B25F /* WayPointRouteSearchViewController.swift */; };
+		D816572E1BAB9F5E00F0CF6E /* BaiduMapAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D816572D1BAB9F5E00F0CF6E /* BaiduMapAPI.framework */; };
+		D81657301BABA09400F0CF6E /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D816572F1BABA09400F0CF6E /* mapapi.bundle */; };
+		D8D2FEDE1AD842F7007265EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C9241E1A8FA8570065A546 /* CoreLocation.framework */; };
+		D8D2FEDF1AD842FE007265EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C924201A8FA85D0065A546 /* QuartzCore.framework */; };
+		D8D2FEE01AD84303007265EF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C924221A8FA8640065A546 /* OpenGLES.framework */; };
+		D8D2FEE11AD8430C007265EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C924241A8FA86D0065A546 /* SystemConfiguration.framework */; };
+		D8D2FEE21AD84313007265EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C924261A8FA8760065A546 /* CoreGraphics.framework */; };
+		D8D2FEE31AD84319007265EF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C924281A8FA8C50065A546 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		73D168661A94638900ACD2DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7309A5761A92F03A0084974E /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseTableViewController.swift; path = ViewController/BaseTableViewController.swift; sourceTree = "<group>"; };
+		7309A57A1A92F9E50084974E /* BaseMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseMapViewController.swift; path = ViewController/BaseMapViewController.swift; sourceTree = "<group>"; };
+		7309A57C1A92FA2E0084974E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7309A57E1A9317450084974E /* MultiMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiMapViewController.swift; path = ViewController/MultiMapViewController.swift; sourceTree = "<group>"; };
+		7309A5801A9320F10084974E /* MapViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewViewController.swift; path = ViewController/MapViewViewController.swift; sourceTree = "<group>"; };
+		7309A5821A9329CC0084974E /* MapControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapControlViewController.swift; path = ViewController/MapControlViewController.swift; sourceTree = "<group>"; };
+		732EF2951AAC3C23004945D1 /* CustomOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlay.swift; sourceTree = "<group>"; };
+		7332CA731ABEA5D100260828 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		7332CA761ABEA6C700260828 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Resources/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
+		737C00851ABB0A7400C8CD8D /* OfflineMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfflineMapViewController.swift; path = ViewController/OfflineMapViewController.swift; sourceTree = "<group>"; };
+		7383F5131ABEDA1D00FD6477 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		739A87371AAD7E9700911136 /* RouteAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteAnnotation.swift; sourceTree = "<group>"; };
+		73B85CB61AAC86AE005874FD /* GeocodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeocodeViewController.swift; path = ViewController/GeocodeViewController.swift; sourceTree = "<group>"; };
+		73B85CB81AAC877A005874FD /* RouteSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteSearchViewController.swift; path = ViewController/RouteSearchViewController.swift; sourceTree = "<group>"; };
+		73B85CBA1AAC8794005874FD /* BusLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BusLineViewController.swift; path = ViewController/BusLineViewController.swift; sourceTree = "<group>"; };
+		73B85CBC1AAC87A7005874FD /* OfflineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OfflineViewController.swift; path = ViewController/OfflineViewController.swift; sourceTree = "<group>"; };
+		73B85CBE1AAC87BE005874FD /* HeatMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatMapViewController.swift; path = ViewController/HeatMapViewController.swift; sourceTree = "<group>"; };
+		73B85CC01AAC87CE005874FD /* ShortURLShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShortURLShareViewController.swift; path = ViewController/ShortURLShareViewController.swift; sourceTree = "<group>"; };
+		73B85CC21AAC87DD005874FD /* CloudSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CloudSearchViewController.swift; path = ViewController/CloudSearchViewController.swift; sourceTree = "<group>"; };
+		73B85CC41AAC87F0005874FD /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = ViewController/NavigationViewController.swift; sourceTree = "<group>"; };
+		73B85CC61AAC87FF005874FD /* OpenGLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenGLViewController.swift; path = ViewController/OpenGLViewController.swift; sourceTree = "<group>"; };
+		73B90C681AA9782C0041BE28 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationViewController.swift; path = ViewController/LocationViewController.swift; sourceTree = "<group>"; };
+		73B90C691AA9782C0041BE28 /* MapUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapUIViewController.swift; path = ViewController/MapUIViewController.swift; sourceTree = "<group>"; };
+		73B90C6E1AA99E390041BE28 /* AnnotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnnotationViewController.swift; path = ViewController/AnnotationViewController.swift; sourceTree = "<group>"; };
+		73B90C701AA99EA60041BE28 /* CustomOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomOverlayViewController.swift; path = ViewController/CustomOverlayViewController.swift; sourceTree = "<group>"; };
+		73B90C721AA99ED50041BE28 /* PoiSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PoiSearchViewController.swift; path = ViewController/PoiSearchViewController.swift; sourceTree = "<group>"; };
+		73B90C761AA9A90B0041BE28 /* AnimatedAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedAnnotationView.swift; sourceTree = "<group>"; };
+		73C923AC1A8FA30C0065A546 /* BaiduMapiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMapiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C923B01A8FA30C0065A546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C923B11A8FA30C0065A546 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		73C923B91A8FA30C0065A546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73C923BB1A8FA30C0065A546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Media/Images.xcassets; sourceTree = "<group>"; };
+		73C923BE1A8FA30C0065A546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		73C923D41A8FA37C0065A546 /* BaiduMapTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduMapTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		73C923D51A8FA37C0065A546 /* tmp.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = tmp.mm; sourceTree = "<group>"; };
+		73C9241E1A8FA8570065A546 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		73C924201A8FA85D0065A546 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		73C924221A8FA8640065A546 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		73C924241A8FA86D0065A546 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		73C924261A8FA8760065A546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		73C924281A8FA8C50065A546 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		73E415F81AB99A860083B25F /* WayPointRouteSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WayPointRouteSearchViewController.swift; path = ViewController/WayPointRouteSearchViewController.swift; sourceTree = "<group>"; };
+		D816572D1BAB9F5E00F0CF6E /* BaiduMapAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI.framework; sourceTree = "<group>"; };
+		D816572F1BABA09400F0CF6E /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapAPI.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73C923A91A8FA30C0065A546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D2FEE31AD84319007265EF /* Security.framework in Frameworks */,
+				D8D2FEE21AD84313007265EF /* CoreGraphics.framework in Frameworks */,
+				D8D2FEE11AD8430C007265EF /* SystemConfiguration.framework in Frameworks */,
+				D816572E1BAB9F5E00F0CF6E /* BaiduMapAPI.framework in Frameworks */,
+				D8D2FEE01AD84303007265EF /* OpenGLES.framework in Frameworks */,
+				D8D2FEDF1AD842FE007265EF /* QuartzCore.framework in Frameworks */,
+				D8D2FEDE1AD842F7007265EF /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7309A5711A92EE7F0084974E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7383F5131ABEDA1D00FD6477 /* MessageUI.framework */,
+				73C924281A8FA8C50065A546 /* Security.framework */,
+				73C924261A8FA8760065A546 /* CoreGraphics.framework */,
+				73C924241A8FA86D0065A546 /* SystemConfiguration.framework */,
+				73C924221A8FA8640065A546 /* OpenGLES.framework */,
+				73C924201A8FA85D0065A546 /* QuartzCore.framework */,
+				73C9241E1A8FA8570065A546 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7309A5721A92EE990084974E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D816572C1BAB9F5E00F0CF6E /* BaiduMapSDK */,
+				735555FF1AC10BB10075CB38 /* SwiftyJSON */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7309A5731A92EF260084974E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				73C923BD1A8FA30C0065A546 /* LaunchScreen.xib */,
+				73C923B81A8FA30C0065A546 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		7309A5751A92EF650084974E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7309A5761A92F03A0084974E /* BaseTableViewController.swift */,
+				7309A57A1A92F9E50084974E /* BaseMapViewController.swift */,
+				7309A57E1A9317450084974E /* MultiMapViewController.swift */,
+				7309A5801A9320F10084974E /* MapViewViewController.swift */,
+				7309A5821A9329CC0084974E /* MapControlViewController.swift */,
+				73B90C691AA9782C0041BE28 /* MapUIViewController.swift */,
+				73B90C681AA9782C0041BE28 /* LocationViewController.swift */,
+				73B90C6E1AA99E390041BE28 /* AnnotationViewController.swift */,
+				73B90C701AA99EA60041BE28 /* CustomOverlayViewController.swift */,
+				73B90C721AA99ED50041BE28 /* PoiSearchViewController.swift */,
+				73B85CB61AAC86AE005874FD /* GeocodeViewController.swift */,
+				73B85CB81AAC877A005874FD /* RouteSearchViewController.swift */,
+				73E415F81AB99A860083B25F /* WayPointRouteSearchViewController.swift */,
+				73B85CBA1AAC8794005874FD /* BusLineViewController.swift */,
+				73B85CBC1AAC87A7005874FD /* OfflineViewController.swift */,
+				737C00851ABB0A7400C8CD8D /* OfflineMapViewController.swift */,
+				73B85CBE1AAC87BE005874FD /* HeatMapViewController.swift */,
+				73B85CC01AAC87CE005874FD /* ShortURLShareViewController.swift */,
+				73B85CC21AAC87DD005874FD /* CloudSearchViewController.swift */,
+				73B85CC41AAC87F0005874FD /* NavigationViewController.swift */,
+				73B85CC61AAC87FF005874FD /* OpenGLViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		732EF2941AAC3C12004945D1 /* CustomOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				732EF2951AAC3C23004945D1 /* CustomOverlay.swift */,
+			);
+			path = CustomOverlay;
+			sourceTree = "<group>";
+		};
+		735555FF1AC10BB10075CB38 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				7332CA761ABEA6C700260828 /* SwiftyJSON.swift */,
+			);
+			name = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		735556001AC10D640075CB38 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7332CA731ABEA5D100260828 /* locations.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		735556011AC10E4F0075CB38 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				73C923BB1A8FA30C0065A546 /* Images.xcassets */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		73B90C741AA9A8EB0041BE28 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				7309A57C1A92FA2E0084974E /* Constant.swift */,
+				735556001AC10D640075CB38 /* Data */,
+				732EF2941AAC3C12004945D1 /* CustomOverlay */,
+				73B90C751AA9A8F10041BE28 /* Annotations */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		73B90C751AA9A8F10041BE28 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				73B90C761AA9A90B0041BE28 /* AnimatedAnnotationView.swift */,
+				739A87371AAD7E9700911136 /* RouteAnnotation.swift */,
+			);
+			path = Annotations;
+			sourceTree = "<group>";
+		};
+		73C923A31A8FA30C0065A546 = {
+			isa = PBXGroup;
+			children = (
+				7309A5721A92EE990084974E /* Resources */,
+				7309A5711A92EE7F0084974E /* Frameworks */,
+				73C923AE1A8FA30C0065A546 /* BaiduMapSwift */,
+				73C923AD1A8FA30C0065A546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73C923AD1A8FA30C0065A546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73C923AC1A8FA30C0065A546 /* BaiduMapiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73C923AE1A8FA30C0065A546 /* BaiduMapSwift */ = {
+			isa = PBXGroup;
+			children = (
+				73B90C741AA9A8EB0041BE28 /* Elements */,
+				735556011AC10E4F0075CB38 /* Media */,
+				7309A5731A92EF260084974E /* Storyboard */,
+				73C923AF1A8FA30C0065A546 /* Supporting Files */,
+				7309A5751A92EF650084974E /* View Controller */,
+			);
+			path = BaiduMapSwift;
+			sourceTree = "<group>";
+		};
+		73C923AF1A8FA30C0065A546 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73C923B11A8FA30C0065A546 /* AppDelegate.swift */,
+				73C923B01A8FA30C0065A546 /* Info.plist */,
+				73C923D51A8FA37C0065A546 /* tmp.mm */,
+				73C923D41A8FA37C0065A546 /* BaiduMapTest-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D816572C1BAB9F5E00F0CF6E /* BaiduMapSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D816572F1BABA09400F0CF6E /* mapapi.bundle */,
+				D816572D1BAB9F5E00F0CF6E /* BaiduMapAPI.framework */,
+			);
+			name = BaiduMapSDK;
+			path = Resources/BaiduMapSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73C923AB1A8FA30C0065A546 /* BaiduMapiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C923CE1A8FA30C0065A546 /* Build configuration list for PBXNativeTarget "BaiduMapiOS" */;
+			buildPhases = (
+				73C923A81A8FA30C0065A546 /* Sources */,
+				73C923A91A8FA30C0065A546 /* Frameworks */,
+				73C923AA1A8FA30C0065A546 /* Resources */,
+				73D168661A94638900ACD2DB /* CopyFiles */,
+				73D168671A94659500ACD2DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMapiOS;
+			productName = BaiduMapTest;
+			productReference = 73C923AC1A8FA30C0065A546 /* BaiduMapiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73C923A41A8FA30C0065A546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "益行人-星夜暮晨";
+				TargetAttributes = {
+					73C923AB1A8FA30C0065A546 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 73C923A71A8FA30C0065A546 /* Build configuration list for PBXProject "BaiduMapDemoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 73C923A31A8FA30C0065A546;
+			productRefGroup = 73C923AD1A8FA30C0065A546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73C923AB1A8FA30C0065A546 /* BaiduMapiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73C923AA1A8FA30C0065A546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C923BA1A8FA30C0065A546 /* Main.storyboard in Resources */,
+				73C923BF1A8FA30C0065A546 /* LaunchScreen.xib in Resources */,
+				D81657301BABA09400F0CF6E /* mapapi.bundle in Resources */,
+				7332CA741ABEA5D100260828 /* locations.json in Resources */,
+				73C923BC1A8FA30C0065A546 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73D168671A94659500ACD2DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73C923A81A8FA30C0065A546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735555FE1AC10B890075CB38 /* SwiftyJSON.swift in Sources */,
+				7309A5811A9320F10084974E /* MapViewViewController.swift in Sources */,
+				7309A57D1A92FA2E0084974E /* Constant.swift in Sources */,
+				7309A57B1A92F9E50084974E /* BaseMapViewController.swift in Sources */,
+				73B85CC51AAC87F0005874FD /* NavigationViewController.swift in Sources */,
+				73B85CBF1AAC87BE005874FD /* HeatMapViewController.swift in Sources */,
+				73B85CC71AAC87FF005874FD /* OpenGLViewController.swift in Sources */,
+				73B90C6B1AA9782C0041BE28 /* MapUIViewController.swift in Sources */,
+				737C00861ABB0A7400C8CD8D /* OfflineMapViewController.swift in Sources */,
+				739A87381AAD7E9700911136 /* RouteAnnotation.swift in Sources */,
+				73B90C731AA99ED50041BE28 /* PoiSearchViewController.swift in Sources */,
+				73C923D61A8FA37C0065A546 /* tmp.mm in Sources */,
+				73B90C6A1AA9782C0041BE28 /* LocationViewController.swift in Sources */,
+				732EF2961AAC3C23004945D1 /* CustomOverlay.swift in Sources */,
+				7309A5831A9329CC0084974E /* MapControlViewController.swift in Sources */,
+				73B90C711AA99EA60041BE28 /* CustomOverlayViewController.swift in Sources */,
+				7309A5771A92F03A0084974E /* BaseTableViewController.swift in Sources */,
+				73E415F91AB99A860083B25F /* WayPointRouteSearchViewController.swift in Sources */,
+				73B85CC11AAC87CE005874FD /* ShortURLShareViewController.swift in Sources */,
+				73B85CB71AAC86AE005874FD /* GeocodeViewController.swift in Sources */,
+				73C923B21A8FA30C0065A546 /* AppDelegate.swift in Sources */,
+				73B85CBD1AAC87A7005874FD /* OfflineViewController.swift in Sources */,
+				7309A57F1A9317450084974E /* MultiMapViewController.swift in Sources */,
+				73B90C6F1AA99E390041BE28 /* AnnotationViewController.swift in Sources */,
+				73B85CB91AAC877A005874FD /* RouteSearchViewController.swift in Sources */,
+				73B90C771AA9A90B0041BE28 /* AnimatedAnnotationView.swift in Sources */,
+				73B85CC31AAC87DD005874FD /* CloudSearchViewController.swift in Sources */,
+				73B85CBB1AAC8794005874FD /* BusLineViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73C923B81A8FA30C0065A546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73C923B91A8FA30C0065A546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73C923BD1A8FA30C0065A546 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73C923BE1A8FA30C0065A546 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73C923CC1A8FA30C0065A546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73C923CD1A8FA30C0065A546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73C923CF1A8FA30C0065A546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources/BaiduMapSDK",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BaiduMapSwift/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiduMapSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduMapSwift/Supporting Files/BaiduMapTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73C923D01A8FA30C0065A546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources/BaiduMapSDK",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BaiduMapSwift/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BaiduMapSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BaiduMapSwift/Supporting Files/BaiduMapTest-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73C923A71A8FA30C0065A546 /* Build configuration list for PBXProject "BaiduMapDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C923CC1A8FA30C0065A546 /* Debug */,
+				73C923CD1A8FA30C0065A546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C923CE1A8FA30C0065A546 /* Build configuration list for PBXNativeTarget "BaiduMapiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C923CF1A8FA30C0065A546 /* Debug */,
+				73C923D01A8FA30C0065A546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73C923A41A8FA30C0065A546 /* Project object */;
+}
